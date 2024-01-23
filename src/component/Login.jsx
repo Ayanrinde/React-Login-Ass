@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import "../assets/style/Style.css"
 const Tenary = () => {
-  const [name, setName] = useState("SQI template")
+  // const [name, setName] = useState("SQI template")
   const [allUsers, setAllUsers] = useState([]);
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
